@@ -1,12 +1,3 @@
-# Solution
-dotnet new sln -n CSharpAnswers  
+# C# Answers
 
-# .gitignore
-dotnet new gitignore
-
-# .editorConfig
-copied from github dotnet/runtime/.editorconfig
-
-# Add a new project, example
-dotnet new console -o ./1_string_vs_system
-dotnet sln add ./1_string_vs_system
+This repository contains all the source code and examples for all C# Answers videos.
