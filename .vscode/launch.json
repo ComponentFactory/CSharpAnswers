@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/1_string_vs_system/bin/Debug/net7.0/1_string_vs_system.dll",
+            "program": "${workspaceFolder}/2_enumerate_enum/bin/Debug/net7.0/2_enumerate_enum.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/1_string_vs_system",
+            "cwd": "${workspaceFolder}/2_enumerate_enum",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
