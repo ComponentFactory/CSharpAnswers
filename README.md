@@ -1,3 +1,3 @@
 # C# Answers
 
-This repository contains all the source code and examples for all C# Answers videos.
+This repository contains the source code for examples from the C# Answers videos.
