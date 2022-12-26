@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/3_enum_to_int/bin/Debug/net7.0/3_enum_to_int.dll",
+            "program": "${workspaceFolder}/4_case_insensitive_contains/bin/Debug/net7.0/4_case_insensitive_contains",
             "args": [],
-            "cwd": "${workspaceFolder}/3_enum_to_int",
+            "cwd": "${workspaceFolder}/4_case_insensitive_contains",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
