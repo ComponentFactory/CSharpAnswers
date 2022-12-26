@@ -16,12 +16,15 @@ namespace Example
         {
             Suits x = Suits.Hearts;
 
+            // Enum to int
             int cast = (int)x;
             Console.WriteLine($"ToInt: {x} = {cast}");
 
+            // Int to Enum
             Suits y = (Suits)cast;
             Console.WriteLine($"ToEnum: {y} = {cast}");
 
+            // String to Enum
             string parse = "Diamonds";
             if (Enum.TryParse<Suits>(parse, out var z))
             {
