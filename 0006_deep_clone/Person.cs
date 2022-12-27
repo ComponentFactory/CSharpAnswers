@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6_deep_clone
+namespace _0006_deep_clone
 {
     public enum ContactType
     {

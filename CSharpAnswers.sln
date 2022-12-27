@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_string_vs_system", "1_string_vs_system\1_string_vs_system.csproj", "{B5B7379D-6C19-4FFD-A964-AED2BEFA6D3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001_string_vs_system", "0001_string_vs_system\0001_string_vs_system.csproj", "{B5B7379D-6C19-4FFD-A964-AED2BEFA6D3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_enumerate_enum", "2_enumerate_enum\2_enumerate_enum.csproj", "{0B371859-3FEF-4A6F-95CE-3D462BB57809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0002_enumerate_enum", "0002_enumerate_enum\0002_enumerate_enum.csproj", "{0B371859-3FEF-4A6F-95CE-3D462BB57809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_enum_to_int", "3_enum_to_int\3_enum_to_int.csproj", "{192EA8FB-B38C-42B0-8E87-49FAC16B5960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0003_enum_to_int", "0003_enum_to_int\0003_enum_to_int.csproj", "{192EA8FB-B38C-42B0-8E87-49FAC16B5960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_case_insensitive_contains", "4_case_insensitive_contains\4_case_insensitive_contains.csproj", "{D7D9BD11-E6A9-4C66-8FFD-CA7BEE3EDC6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0004_case_insensitive_contains", "0004_case_insensitive_contains\0004_case_insensitive_contains.csproj", "{D7D9BD11-E6A9-4C66-8FFD-CA7BEE3EDC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_enumerate_dictionary", "5_enumerate_dictionary\5_enumerate_dictionary.csproj", "{8E44E2ED-8169-4A23-9BD2-B852D658A30A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0005_enumerate_dictionary", "0005_enumerate_dictionary\0005_enumerate_dictionary.csproj", "{8E44E2ED-8169-4A23-9BD2-B852D658A30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_deep_clone", "6_deep_clone\6_deep_clone.csproj", "{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0006_deep_clone", "0006_deep_clone\0006_deep_clone.csproj", "{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

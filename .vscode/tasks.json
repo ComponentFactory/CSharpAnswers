@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/1_string_vs_system/1_string_vs_system.csproj",
+                "${workspaceFolder}/0001_string_vs_system/0001_string_vs_system.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/1_string_vs_system/1_string_vs_system.csproj"
+                "${workspaceFolder}/0001_string_vs_system/0001_string_vs_system.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
