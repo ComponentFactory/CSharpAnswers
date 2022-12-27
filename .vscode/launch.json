@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/4_case_insensitive_contains/bin/Debug/net7.0/4_case_insensitive_contains",
+            "program": "${workspaceFolder}/6_deep_clone/bin/Debug/net7.0/6_deep_clone",
             "args": [],
-            "cwd": "${workspaceFolder}/4_case_insensitive_contains",
+            "cwd": "${workspaceFolder}/6_deep_clone",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false

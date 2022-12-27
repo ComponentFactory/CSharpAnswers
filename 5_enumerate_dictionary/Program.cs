@@ -14,14 +14,14 @@ namespace Example
             };
 
             // Standard approach using KeyValuePair instances
-            foreach(KeyValuePair<int, string> winner in winners)
+            foreach (KeyValuePair<int, string> winner in winners)
             {
                 Console.WriteLine($"{winner.Key} = {winner.Value}");
             }
 
             // Use deconstruction for better naming of key/value
             Console.WriteLine("");
-            foreach((int year, string winner) in winners)
+            foreach ((int year, string winner) in winners)
             {
                 Console.WriteLine($"{year} = {winner}");
             }

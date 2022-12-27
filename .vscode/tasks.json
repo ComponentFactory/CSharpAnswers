@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/1_string_vs_system/1_string_vs_system.csproj",
+                "${workspaceFolder}/CSharpAnswers.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

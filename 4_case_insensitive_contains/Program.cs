@@ -12,11 +12,11 @@ namespace Example
 
             // 1 - Allocates two new strings
             // 2 - Uses the current threads CultureInfo
-            var _a = original.ToLower().Contains(contained.ToLower());            
-            
+            var _a = original.ToLower().Contains(contained.ToLower());
+
             // Solve 2 by passing culture as a parameter
             var _b = original.ToLower(CultureInfo.CurrentCulture).Contains(contained.ToLower(CultureInfo.CurrentCulture));
-            
+
             // Solve 1 by using provided Contains/IndexOf methods
             var _c = original.Contains(contained, StringComparison.CurrentCultureIgnoreCase);
             var _d = original.IndexOf(contained, StringComparison.CurrentCultureIgnoreCase) != -1;
