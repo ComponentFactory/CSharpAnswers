@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Example
+﻿namespace _0002_enumerate_enum
 {
     public enum Suits
     {

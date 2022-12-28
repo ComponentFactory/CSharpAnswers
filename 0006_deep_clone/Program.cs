@@ -1,7 +1,6 @@
 ﻿using System.Text.Json;
-using _0006_deep_clone;
 
-namespace Example
+namespace _0006_deep_clone
 {
     class ExampleClass
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Example
+﻿namespace _0003_enum_to_int
 {
     public enum Suits
     {

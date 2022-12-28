@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0005_enumerate_dictionary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0006_deep_clone", "0006_deep_clone\0006_deep_clone.csproj", "{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0007_multiple_exceptions_filter", "0007_multiple_exceptions_filter\0007_multiple_exceptions_filter.csproj", "{77470175-6BFB-430D-929D-7CEB13D30C3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2AF2DF-AC78-4030-B98F-CBEBEA52F949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
