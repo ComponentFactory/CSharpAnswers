@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0006_deep_clone", "0006_dee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0007_multiple_exceptions_filter", "0007_multiple_exceptions_filter\0007_multiple_exceptions_filter.csproj", "{77470175-6BFB-430D-929D-7CEB13D30C3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0008_random_number", "0008_random_number\0008_random_number.csproj", "{D6CC45BE-8197-42B2-9147-00BD4D91FA74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77470175-6BFB-430D-929D-7CEB13D30C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -8,8 +8,8 @@ dotnet new gitignore
 copied from github dotnet/runtime/.editorconfig
 
 # Add a new project, example
-dotnet new console -o ./0007_multiple_exceptions_filter
-dotnet sln add ./0007_multiple_exceptions_filter
+dotnet new console -o ./0008_random_number
+dotnet sln add ./00008_random_number
 
 # CodeLens
 File -> Preferences -> Settings -> csharp.referencesCodeLens.enabled
