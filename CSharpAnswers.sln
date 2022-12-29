@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0007_multiple_exceptions_fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0008_random_number", "0008_random_number\0008_random_number.csproj", "{D6CC45BE-8197-42B2-9147-00BD4D91FA74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0009_null_coalescing", "0009_null_coalescing\0009_null_coalescing.csproj", "{AD626DF8-3B2D-4725-8780-8E339869D579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6CC45BE-8197-42B2-9147-00BD4D91FA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD626DF8-3B2D-4725-8780-8E339869D579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD626DF8-3B2D-4725-8780-8E339869D579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD626DF8-3B2D-4725-8780-8E339869D579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD626DF8-3B2D-4725-8780-8E339869D579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
