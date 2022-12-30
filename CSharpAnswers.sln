@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0008_random_number", "0008_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0009_null_coalescing", "0009_null_coalescing\0009_null_coalescing.csproj", "{AD626DF8-3B2D-4725-8780-8E339869D579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0010_null_reference_exception", "0010_null_reference_exception\0010_null_reference_exception.csproj", "{BE9A317B-A3CB-4292-8895-C64151D4F425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{AD626DF8-3B2D-4725-8780-8E339869D579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD626DF8-3B2D-4725-8780-8E339869D579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD626DF8-3B2D-4725-8780-8E339869D579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

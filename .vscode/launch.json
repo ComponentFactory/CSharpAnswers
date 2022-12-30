@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/0006_deep_clone/bin/Debug/net7.0/0006_deep_clone",
+            "program": "${workspaceFolder}/./0010_null_reference_exception/bin/Debug/net7.0/./0010_null_reference_exception",
             "args": [],
-            "cwd": "${workspaceFolder}/0006_deep_clone",
+            "cwd": "${workspaceFolder}/./0010_null_reference_exception",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
