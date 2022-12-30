@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0009_null_coalescing", "000
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0010_null_reference_exception", "0010_null_reference_exception\0010_null_reference_exception.csproj", "{BE9A317B-A3CB-4292-8895-C64151D4F425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0011_sort_generic_list", "0011_sort_generic_list\0011_sort_generic_list.csproj", "{00F824D8-EBFA-4296-BCB4-C46A4C54EE76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE9A317B-A3CB-4292-8895-C64151D4F425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F824D8-EBFA-4296-BCB4-C46A4C54EE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F824D8-EBFA-4296-BCB4-C46A4C54EE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F824D8-EBFA-4296-BCB4-C46A4C54EE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F824D8-EBFA-4296-BCB4-C46A4C54EE76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
