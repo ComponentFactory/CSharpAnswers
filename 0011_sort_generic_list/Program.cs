@@ -1,4 +1,6 @@
-﻿namespace _0011_sort_generic_list
+﻿
+
+namespace _0011_sort_generic_list
 {
     class ExampleClass
     {
