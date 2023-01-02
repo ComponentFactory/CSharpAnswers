@@ -8,8 +8,8 @@ dotnet new gitignore
 copied from github dotnet/runtime/.editorconfig
 
 # Add a new project, example
-dotnet new console -o ./0012_fields_vs_properties
-dotnet sln add ./0012_fields_vs_properties
+dotnet new console -o ./0013_multline_string_literal
+dotnet sln add ./0013_multline_string_literal
 
 # CodeLens
 File -> Preferences -> Settings -> csharp.referencesCodeLens.enabled
