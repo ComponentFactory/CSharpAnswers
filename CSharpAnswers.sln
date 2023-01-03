@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0011_sort_generic_list", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0012_fields_vs_properties", "0012_fields_vs_properties\0012_fields_vs_properties.csproj", "{7FC7E25C-E92A-4B21-94A5-CFA8BD06414B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0014_multiple_orderBy", "0014_multiple_orderBy\0014_multiple_orderBy.csproj", "{33407966-3A6E-426D-9836-19DE980CD972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{7FC7E25C-E92A-4B21-94A5-CFA8BD06414B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC7E25C-E92A-4B21-94A5-CFA8BD06414B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC7E25C-E92A-4B21-94A5-CFA8BD06414B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33407966-3A6E-426D-9836-19DE980CD972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33407966-3A6E-426D-9836-19DE980CD972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33407966-3A6E-426D-9836-19DE980CD972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33407966-3A6E-426D-9836-19DE980CD972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
