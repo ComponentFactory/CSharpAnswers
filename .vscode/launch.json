@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/./0011_sort_generic_list/bin/Debug/net7.0/./0011_sort_generic_list",
+            "program": "${workspaceFolder}/./0016_left_outer_join/bin/Debug/net7.0/./0016_left_outer_join",
             "args": [],
-            "cwd": "${workspaceFolder}/./0011_sort_generic_list",
+            "cwd": "${workspaceFolder}/./0016_left_outer_join",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
