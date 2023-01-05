@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0015_select_selectMany", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0016_left_outer_join", "0016_left_outer_join\0016_left_outer_join.csproj", "{EC9DD0A9-5E31-44F6-9CBC-AF17DE10CD20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0017_join_multiple_properties", "0017_join_multiple_properties\0017_join_multiple_properties.csproj", "{1A7E3A8A-9A02-4802-B50B-B578F430DEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{EC9DD0A9-5E31-44F6-9CBC-AF17DE10CD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9DD0A9-5E31-44F6-9CBC-AF17DE10CD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9DD0A9-5E31-44F6-9CBC-AF17DE10CD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7E3A8A-9A02-4802-B50B-B578F430DEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7E3A8A-9A02-4802-B50B-B578F430DEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7E3A8A-9A02-4802-B50B-B578F430DEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7E3A8A-9A02-4802-B50B-B578F430DEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
