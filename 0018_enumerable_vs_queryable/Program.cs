@@ -1,6 +1,6 @@
-﻿// Interface: IEnumerable<T>
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
+// Interface: IEnumerable<T>
 var _1 = new List<int>();
 var _2 = new Dictionary<int, int>();
 var _3 = new HashSet<int>();
@@ -13,18 +13,19 @@ int[] numbers = new int[] { 1, 5, 4, 2, 3 };
 foreach(int number in numbers)
     Debug.WriteLine(number);
 
-// Class: Enumerable
+// Class: Enumerable (Implements LINQ to Objects)
 IEnumerable<int> enumerable1 = numbers;
 IEnumerable<int> enumerable2 = enumerable1.Where(v => v > 2);
 IEnumerable<int> enumerable3 = enumerable2.OrderBy(v => v);
 int result1 = enumerable3.Count();
-int result2 =numbers.Where(v => v > 2).OrderBy(v => v).Count();
+int result2 = numbers.Where(v => v > 2).OrderBy(v => v).Count();
 
 // Interface: IQueryable<T>
 IQueryable<int> queryable1 = numbers.AsQueryable();
 IQueryable<int> queryable2 = queryable1.Where(v => v > 2);
 IQueryable<int> queryable3 = queryable2.OrderBy(v => v);
 int result3 = queryable3.Count();
+int result4 = numbers.AsQueryable().Where(v => v > 2).OrderBy(v => v).Count();
 
 Debug.WriteLine($"""
 
@@ -46,4 +47,4 @@ Debug.WriteLine($"""
         ElementType: {queryable3.ElementType}
         Expression: {queryable3.Expression}
 
-    """);    
+    """);
