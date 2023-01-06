@@ -8,8 +8,8 @@ dotnet new gitignore
 copied from github dotnet/runtime/.editorconfig
 
 # Add a new project, example
-dotnet new console -o ./0017_join_multiple_properties
-dotnet sln add ./0017_join_multiple_properties
+dotnet new console -o ./0018_enumerable_vs_queryable
+dotnet sln add ./0018_enumerable_vs_queryable
 
 # CodeLens
 File -> Preferences -> Settings -> csharp.referencesCodeLens.enabled
