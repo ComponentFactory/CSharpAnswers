@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0018_enumerable_vs_queryabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0019_dynamic_linq_query", "0019_dynamic_linq_query\0019_dynamic_linq_query.csproj", "{6306F05D-12F9-4CD9-95BC-44EF04A31466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0020_groupBy_multiple_properties", "0020_groupBy_multiple_properties\0020_groupBy_multiple_properties.csproj", "{A2F25875-4D61-47EE-B8C5-239581E208A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{6306F05D-12F9-4CD9-95BC-44EF04A31466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6306F05D-12F9-4CD9-95BC-44EF04A31466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6306F05D-12F9-4CD9-95BC-44EF04A31466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F25875-4D61-47EE-B8C5-239581E208A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F25875-4D61-47EE-B8C5-239581E208A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F25875-4D61-47EE-B8C5-239581E208A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F25875-4D61-47EE-B8C5-239581E208A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
