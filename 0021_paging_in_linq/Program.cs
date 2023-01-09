@@ -29,7 +29,6 @@ foreach(var name in list2)
     Console.WriteLine(name);
 Console.WriteLine("");
 
-
 var list3 = names.TakeWhile(n => n.Length == 4);
 var list4 = names.SkipWhile(n => n.Length == 4);
 
@@ -42,4 +41,4 @@ foreach(var name in list4)
     Console.WriteLine(name);
 Console.WriteLine("");
 
-var page2 = (from n in names select n).Skip(2).Take(2);
+var mixed = (from n in names select n).Skip(2).Take(2);
