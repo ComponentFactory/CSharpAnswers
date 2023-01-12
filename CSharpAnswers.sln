@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0021_paging_in_linq", "0021
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0022_disposable_interface", "0022_disposable_interface\0022_disposable_interface.csproj", "{607A6157-2C04-4CFA-A16C-C689D1F8A705}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0023_shuffle_list", "0023_shuffle_list\0023_shuffle_list.csproj", "{2EC9603F-28E5-4E3D-9B5F-920E6799F181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +140,9 @@ Global
 		{607A6157-2C04-4CFA-A16C-C689D1F8A705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{607A6157-2C04-4CFA-A16C-C689D1F8A705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{607A6157-2C04-4CFA-A16C-C689D1F8A705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC9603F-28E5-4E3D-9B5F-920E6799F181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC9603F-28E5-4E3D-9B5F-920E6799F181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC9603F-28E5-4E3D-9B5F-920E6799F181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC9603F-28E5-4E3D-9B5F-920E6799F181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
