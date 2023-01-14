@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0023_shuffle_list", "0023_s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0024_index_in_select", "0024_index_in_select\0024_index_in_select.csproj", "{47579138-7235-45C7-AC54-1E2203F8C892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0025_chunk_link_results", "0025_chunk_link_results\0025_chunk_link_results.csproj", "{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +152,9 @@ Global
 		{47579138-7235-45C7-AC54-1E2203F8C892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47579138-7235-45C7-AC54-1E2203F8C892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47579138-7235-45C7-AC54-1E2203F8C892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
