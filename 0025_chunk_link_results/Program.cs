@@ -1,5 +1,6 @@
 ﻿string[] names = new string[] { "Anne", "Bob", "Charlie", "Dick", "Enid" };
 
+// Verbose pattern for processing chunks
 var chunk = new List<string>();
 foreach(var name in names)
 {
@@ -22,9 +23,10 @@ if (chunk.Count > 0)
 }
 
 
-// foreach(var chunk in names.Chunk(2))
-// {
-//     Console.WriteLine("Chunk");
-//     foreach(var name in chunk)
-//         Console.WriteLine($"  {name}");
-// }
+// Consice version using LINQ operator
+foreach(var chunk in names.Chunk(2))
+{
+    Console.WriteLine("Chunk");
+    foreach(var name in chunk)
+        Console.WriteLine($"  {name}");
+}
