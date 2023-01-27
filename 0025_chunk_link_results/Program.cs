@@ -8,7 +8,7 @@ foreach(string name in names)
     if (chunk.Count == 2)
     {
         Console.WriteLine("Chunk");
-        foreach(var item in chunk)
+        foreach(string item in chunk)
             Console.WriteLine($"  {item}");
 
         chunk.Clear();
