@@ -1,0 +1,51 @@
+{
+    "settings.cycle": [
+        {
+            "id": "lineNumbers",
+            "values":[
+                {
+                    "window.zoomLevel": 5,
+                    "workbench.activityBar.visible": false,
+                    "workbench.statusBar.visible": false,
+                    "workbench.colorCustomizations": {
+                        "editorCursor.foreground": "#ff000000",
+                        "editor.lineHighlightBorder": "#ff000000",
+                        "editor.lineHighlightBackground": "#00000000",
+                        "editor.selectionForeground": "#ffffff",
+                        "editor.selectionBackground": "#0000ff",
+                        "editor.selectionHighlightBackground": "#00000000"
+                    },
+                    "breadcrumbs.enabled": false,
+                    "editor.cursorWidth": 1,
+                    "editor.lineNumbers": "off",
+                    "editor.folding": false,
+                    "editor.glyphMargin": false,
+                    "editor.minimap.enabled": false,
+                    "editor.guides.indentation": false,
+                    "editor.lightbulb.enabled": false
+                },
+                {
+                    "window.zoomLevel": 2,
+                    "workbench.activityBar.visible": true,
+                    "workbench.statusBar.visible": true,
+                    "workbench.colorCustomizations": {
+                        "editorCursor.foreground": "#FFFFFF",
+                        "editor.lineHighlightBorder": "#FFFFFF16",
+                        "editor.lineHighlightBackground": "#00000000",
+                    },
+                    "breadcrumbs.enabled": true,
+                    "editor.cursorWidth": 2,
+                    "editor.lineNumbers": "on",
+                    "editor.folding": true,
+                    "editor.minimap.enabled": true,
+                    "editor.glyphMargin": true,
+                    "editor.guides.indentation": true,
+                    "editor.lightbulb.enabled": true
+                }
+            ]
+        }
+    ],
+    "codesnap.roundedCorners": true,
+    "codesnap.showWindowControls": false,
+    "codesnap.showWindowTitle": true
+}
