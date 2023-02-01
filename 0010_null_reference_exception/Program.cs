@@ -5,9 +5,9 @@ namespace _0010_null_reference_exception
 {
     class ExampleClass
     {
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
-            ExampleClass e2 = new ExampleClass();
+            ExampleClass e2 = new();
             string? typeOfDay = e2.TodayAsString();
             Console.WriteLine(typeOfDay!.ToUpper());
         }

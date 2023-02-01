@@ -15,13 +15,12 @@ foreach(string name in names)
     }
 }
 
-if (chunk.Count > 0) 
+if (chunk.Count > 0)
 {
     Console.WriteLine("Chunk");
     foreach(string name in chunk)
         Console.WriteLine($"  {name}");
 }
-
 
 // Concise version using LINQ operator
 foreach(IEnumerable<string> chunks in names.Chunk(2))

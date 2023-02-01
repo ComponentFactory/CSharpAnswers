@@ -1,4 +1,4 @@
-﻿Random rand = new Random();
+﻿Random rand = new();
 
 // >= 0 && < int.MaxValue
 int anyPositive = rand.Next();

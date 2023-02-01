@@ -37,7 +37,7 @@
                                     age => new { age.Country, age.Name },
                                     pay => new { pay.Country, pay.Name },
                                     (age, pay) => new {
-                                        age.Country, 
+                                        age.Country,
                                         age.Name,
                                         age.Age,
                                         pay.Pay,

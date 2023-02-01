@@ -1,8 +1,8 @@
 ﻿namespace _0007_multiple_exceptions_filter
 {
-    class MultiExceptionFilter
+    static class MultiExceptionFilter
     {
-        public bool SomeOperation()
+        public static bool SomeOperation()
         {
             bool success = true;
 
@@ -16,7 +16,7 @@
             {
                 success = false;
             }
-            
+
             return success;
         }
     }
