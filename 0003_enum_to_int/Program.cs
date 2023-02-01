@@ -8,26 +8,24 @@
         Clubs
     }
 
-    class ExampleClass
+    static class ExampleClass
     {
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
-            Suits x = Suits.Hearts;
+            const Suits x = Suits.Hearts;
 
             // Enum to int
-            int cast = (int)x;
+            const int cast = (int)x;
             Console.WriteLine($"ToInt: {x} = {cast}");
 
             // Int to Enum
-            Suits y = (Suits)cast;
+            const Suits y = (Suits)cast;
             Console.WriteLine($"ToEnum: {y} = {cast}");
 
             // String to Enum
-            string parse = "Diamonds";
-            if (Enum.TryParse<Suits>(parse, out var z))
-            {
+            const string parse = "Diamonds";
+            if (Enum.TryParse<Suits>(parse, out Suits z))
                 Console.WriteLine($"Parsed: {z} = {parse} = {(int)z}");
-            }
         }
     }
 }

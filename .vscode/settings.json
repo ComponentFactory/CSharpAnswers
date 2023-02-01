@@ -47,5 +47,22 @@
     ],
     "codesnap.roundedCorners": true,
     "codesnap.showWindowControls": false,
-    "codesnap.showWindowTitle": true
+    "codesnap.showWindowTitle": true,
+    "files.exclude": {
+        ".vs": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "explorer.fileNesting.patterns": {
+        "I*.cs": "${capture}.cs",
+        "appsettings.json": "appsettings.*.json",
+        "*.cs": "${capture}.*.cs"
+    },
+    "editor.scrollbar.vertical": "visible",
+    "editor.showFoldingControls": "always",    
+    "searchEverywhere.exclude": [
+        "**/*/bin/**",
+        "**/*/obj/**",
+        "**/.vs/**"
+    ]
 }

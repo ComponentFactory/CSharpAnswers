@@ -2,7 +2,7 @@
 
 namespace _0019_dynamic_linq_query
 {
-    class ExampleClass
+    static class ExampleClass
     {
         public record class Person(string Country, string Name, int Age);
 
@@ -25,12 +25,12 @@ namespace _0019_dynamic_linq_query
 
             // Static query
             var result1 = people.Where(p => p.Age > 18)
-                                            .OrderBy(p => p.Country)
-                                            .ToList();
+                                .OrderBy(p => p.Country)
+                                .ToList();
 
             // Dynamic OrderBy
-            bool checkAge = false;
-            OrderColumn ordering = OrderColumn.Age;
+            const bool checkAge = true;
+            const OrderColumn ordering = OrderColumn.Age;
 
             IEnumerable<Person> result2 = people;
 
@@ -44,14 +44,15 @@ namespace _0019_dynamic_linq_query
                 OrderColumn.Country => result2.OrderBy(p => p.Country),
                 OrderColumn.Name => result2.OrderBy(p => p.Name),
                 OrderColumn.Age => result2.OrderBy(p => p.Age),
-                _ => throw new ArgumentOutOfRangeException()
+                _ => throw new ArgumentOutOfRangeException(paramName: nameof(ordering), message:"Unknown value")
             };
 
             var result4 = result2.ToList();
 
             Debug.WriteLine("");
-            foreach (var result in result4)
+            foreach (Person result in result4)
                 Debug.WriteLine(result);
+
             Debug.WriteLine("");
         }
     }

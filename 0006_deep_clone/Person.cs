@@ -30,7 +30,7 @@ namespace _0006_deep_clone
             StringBuilder sb = new();
             sb.AppendLine(Name);
 
-            foreach (var contact in Contacts)
+            foreach (Contact contact in Contacts)
                 sb.AppendLine(contact.ToString());
 
             return sb.ToString();

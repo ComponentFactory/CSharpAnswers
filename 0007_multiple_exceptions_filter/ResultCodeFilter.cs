@@ -2,21 +2,21 @@
 
 namespace _0007_multiple_exceptions_filter
 {
-    class ResultCodeFilter
+    static class ResultCodeFilter
     {
-        public async Task<bool> SomeOperation(HttpClient client)
+        public static async Task<bool> SomeOperationAsync(HttpClient client)
         {
             bool success = true;
 
             try
             {
-                var response = await client.GetAsync("http://example.com");
+                HttpResponseMessage response = await client.GetAsync("http://example.com");
             }
             catch(HttpRequestException ex) when (ex.StatusCode.HasValue && ex.StatusCode.Value == HttpStatusCode.NotFound)
             {
                 success = false;
             }
-            
+
             return success;
         }
     }

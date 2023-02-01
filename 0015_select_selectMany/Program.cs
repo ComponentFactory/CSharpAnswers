@@ -1,6 +1,6 @@
 ﻿namespace _0015_select_selectMany
 {
-    class ExampleClass
+    static class ExampleClass
     {
         public class Winner
         {
@@ -8,7 +8,7 @@
             public required int[] Years { get; set; }
         }
 
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
             List<Winner> list = new()
             {

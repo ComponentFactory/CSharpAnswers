@@ -1,6 +1,6 @@
 ﻿namespace _0014_multiple_orderBy
 {
-    class ExampleClass
+    static class ExampleClass
     {
         public class Person
         {
@@ -8,7 +8,7 @@
             public required string Name { get; set; }
         }
 
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
             List<Person> list = new()
             {
@@ -26,7 +26,7 @@
             list = list.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ToList();
 
             Console.WriteLine("");
-            foreach(var persion in list)
+            foreach(Person persion in list)
                 Console.WriteLine($"{persion.Age} = {persion.Name}");
         }
     }

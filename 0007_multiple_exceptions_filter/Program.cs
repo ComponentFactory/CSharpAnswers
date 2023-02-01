@@ -1,8 +1,8 @@
 ﻿namespace _0007_multiple_exceptions_filter
 {
-    class ExampleClass
+    static class ExampleClass
     {
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
             Console.WriteLine("Empty!");
         }

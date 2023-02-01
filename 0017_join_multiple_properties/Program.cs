@@ -1,6 +1,6 @@
 ﻿namespace _0017_join_multiple_properties
 {
-    class ExampleClass
+    static class ExampleClass
     {
         public class PersonAge
         {
@@ -16,48 +16,49 @@
             public required int Pay { get; set; }
         }
 
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
             List<PersonAge> ages = new()
             {
-                new PersonAge() { Country = "Belgium", Name = "John Doe", Age = 21 },
-                new PersonAge() { Country = "England", Name = "John Doe", Age = 24 },
-                new PersonAge() { Country = "England", Name = "Jane Doe", Age = 30 },
+                 new PersonAge() { Country = "Belgium", Name = "John Doe", Age = 21 },
+                 new PersonAge() { Country = "England", Name = "John Doe", Age = 24 },
+                 new PersonAge() { Country = "England", Name = "Jane Doe", Age = 30 },
             };
 
             List<PersonPay> paid = new()
             {
-                new PersonPay() { Country = "Belgium", Name = "John Doe", Pay = 1000 },
-                new PersonPay() { Country = "England", Name = "John Doe", Pay = 2000 },
-                new PersonPay() { Country = "England", Name = "Jane Doe", Pay = 3000 },
+                 new PersonPay() { Country = "Belgium", Name = "John Doe", Pay = 1000 },
+                 new PersonPay() { Country = "England", Name = "John Doe", Pay = 2000 },
+                 new PersonPay() { Country = "England", Name = "Jane Doe", Pay = 3000 },
             };
 
             // Method syntax
-            var results = ages.Join(paid, 
-                                    age => new { Country = age.Country, Name = age.Name },
-                                    pay => new { Country = pay.Country, Name = pay.Name },
+            var results = ages.Join(paid,
+                                    age => new { age.Country, age.Name },
+                                    pay => new { pay.Country, pay.Name },
                                     (age, pay) => new {
-                                        Country = age.Country, 
-                                        Name = age.Name,
-                                        Age = age.Age,
-                                        Pay = pay.Pay,
+                                        age.Country, 
+                                        age.Name,
+                                        age.Age,
+                                        pay.Pay,
                                     });
 
             // Query syntax
             results = from a in ages
-                      join p in paid on new { Country = a.Country, Name = a.Name } equals
-                                        new { Country = p.Country, Name = p.Name }
+                      join p in paid on new { a.Country, a.Name } equals
+                                        new { p.Country, p.Name }
                       select new {
-                          Country = a.Country, 
-                          Name = a.Name,
-                          Age = a.Age,
-                          Pay = p.Pay,
+                          a.Country,
+                          a.Name,
+                          a.Age,
+                          p.Pay,
                       };
 
-           Console.WriteLine("");                                               
-            foreach(var result in results)                                              
+           Console.WriteLine("");
+            foreach(var result in results)
                 Console.WriteLine(result);
-            Console.WriteLine("");                                               
+
+            Console.WriteLine("");
        }
    }
 }

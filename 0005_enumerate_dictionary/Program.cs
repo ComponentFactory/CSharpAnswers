@@ -14,6 +14,4 @@ foreach (KeyValuePair<int, string> winner in winners)
 // Use deconstruction for better naming of key/value
 Console.WriteLine("");
 foreach ((int year, string winner) in winners)
-{
     Console.WriteLine($"{year} = {winner}");
-}

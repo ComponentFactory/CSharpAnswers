@@ -1,8 +1,6 @@
-﻿
-
-namespace _0011_sort_generic_list
+﻿namespace _0011_sort_generic_list
 {
-    class ExampleClass
+    static class ExampleClass
     {
         public class Winner
         {
@@ -10,7 +8,7 @@ namespace _0011_sort_generic_list
             public required string Country { get; set; }
         }
 
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
             List<Winner> list = new()
             {
@@ -19,7 +17,7 @@ namespace _0011_sort_generic_list
                 new Winner() { Year = 2018, Country = "France"},
             };
 
-            foreach(var entry in list)
+            foreach(Winner entry in list)
                 Console.WriteLine($"{entry.Year} = {entry.Country}");
 
             // Sort in place
@@ -30,7 +28,7 @@ namespace _0011_sort_generic_list
             list = list.OrderByDescending(w => w.Country).ToList();
 
             Console.WriteLine("");
-            foreach(var entry in list)
+            foreach(Winner entry in list)
                 Console.WriteLine($"{entry.Year} = {entry.Country}");
         }
     }

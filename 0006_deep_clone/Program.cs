@@ -2,11 +2,11 @@
 
 namespace _0006_deep_clone
 {
-    class ExampleClass
+    static class ExampleClass
     {
-        static void Main(string[] args)
+        static void Main(string[] _)
         {
-            Person original = new Person()
+            Person original = new()
             {
                 Name = "John Doe",
                 Contacts = new()

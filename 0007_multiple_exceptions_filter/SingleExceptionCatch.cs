@@ -1,8 +1,8 @@
 ﻿namespace _0007_multiple_exceptions_filter
 {
-    class SingleExceptionCatch
+    static class SingleExceptionCatch
     {
-        public bool SomeOperation()
+        public static bool SomeOperation()
         {
             bool success = true;
 
@@ -19,9 +19,11 @@
                     success = false;
                 }
                 else
+                {
                     throw;
+                }
             }
-            
+
             return success;
         }
     }
