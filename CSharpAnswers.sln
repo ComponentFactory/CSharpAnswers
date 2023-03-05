@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0024_index_in_select", "002
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0025_chunk_link_results", "0025_chunk_link_results\0025_chunk_link_results.csproj", "{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0026_lambda_expression_property", "0026_lambda_expression_property\0026_lambda_expression_property.csproj", "{BA412B6B-E902-4E1C-A8B6-D590DE9869C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,9 @@ Global
 		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D86E32-0A2E-48A2-89BB-7DD2FA38AE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA412B6B-E902-4E1C-A8B6-D590DE9869C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA412B6B-E902-4E1C-A8B6-D590DE9869C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA412B6B-E902-4E1C-A8B6-D590DE9869C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA412B6B-E902-4E1C-A8B6-D590DE9869C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
